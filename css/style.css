@@ -1,0 +1,217 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+     margin: 0 auto;
+     width: 100%;
+}
+
+header {
+     width: 100%;
+     height: 700px;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+     header h1 {
+          font-weight: 800;
+          font-size: 24px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          margin: 0;
+          padding-left: 10%;
+          padding-top: 3.33%;
+          padding-bottom: 1.67%;
+     }
+
+     header p {
+          color: #FFFFFF;
+          font-weight: 600;
+          font-size: 24px;
+          padding-left: 10%;
+          padding-top: 9.17%;
+          padding-right: 10%;
+          padding-bottom: 5%;
+          text-align: center;
+     }
+
+article {
+     background-color: #f0efef;
+     margin: 0;
+     padding-left: 10%;
+     padding-top: 20px;
+     padding-right: 10%;
+     padding-bottom: 35px;
+}
+
+     article h2 {
+          color: #033048;
+          font-weight: 600;
+          font-size: 20px;
+     }
+
+     article p {
+          color: #606161;
+          font-weight: 300;
+          font-size: 13px;
+     }
+
+     article ul {
+          color: #121212;
+          list-style-type: disc;
+          font-weight: 300;
+          font-size: 13px;
+     }
+
+footer {
+     height: 350;
+     background-color: #121212;
+     margin-top: 0;
+}
+
+.getitnowbtn {
+     color: #033048;
+     font-weight: 800;
+     font-size: 14px;
+     background-color: #f9e42e;
+     width: 260px;
+     border-radius: 5px;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin: 0 auto;
+}
+
+.blockquote {
+     max-width: 580px;
+     min-height: 150px;
+     margin: 0 auto;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+}
+
+     .blockquotetext {
+          color: #FFFFFF;
+          font-size: 18px;
+          font-weight: 300;
+          font-style: italic;
+          text-align: center;
+          margin: 0;
+     }
+
+#blockquotesemibold {
+     color: #FFFFFF;
+     font-size: 18px;
+     font-weight: 600;
+     text-align: center;
+     margin: 0;
+     padding-top: 5px;
+}
+
+.calltoaction {
+     background-color: #f9e42e;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin: 0;
+}
+
+     .calltoactionbtn {
+          color: #FFFFFF;
+          background-color: #033048;
+          border-radius: 5px;
+          padding-left: 70px;
+          padding-top: 8px;
+          padding-right: 70px;
+          padding-bottom: 8px;
+          width: 305px;
+          height: 60px;
+          margin: 0 auto;
+          text-align: center;
+          font-size: 12px;
+          font-weight: 800;
+     }
+
+.footerinfowrap {
+     max-width: 250px;
+     min-height: 250px;
+     margin: 0 auto;
+     text-align: center;
+}
+
+     .footerlogo {
+          color: #f9e42e;
+          padding-top: 24px;
+          padding-bottom: 20px;
+          font-weight: 800;
+          letter-spacing: 1px;
+          margin: 0;
+     }
+
+     .footersocialmediahub {
+          width: 140px;
+          height: 60px;
+          margin: 0 auto;
+     }
+          
+          .footertwittericon {
+               float: left;
+               padding-left: 20px;
+               padding-right: 20px;
+          }
+
+          .footerfbicon {
+               float: left;
+               padding-left: 20px;
+               padding-right: 20px;
+          }
+
+     .footercopyright {
+          padding-top: 10px;
+          padding-bottom: 20px;
+     }
+
+          .footercopyrightinfo {
+               color: #FFFFFF;
+               font-size: 9px;
+               font-weight: 600;
+          }
+
+.wrapper {
+     max-width: 100%;
+     margin: 0 auto;
+}
+
+.headercontentwrap {
+
+}
+
+.relaxrheader {
+     font-size: 24px;
+     font-weight: bolder;
+}
+
+
+
+

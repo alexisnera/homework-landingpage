@@ -50,6 +50,11 @@ header {
           text-align: center;
      }
 
+     a {
+          color: #033048;
+          text-decoration: none;
+     }
+
 article {
      width: 100%;
      height: auto;
@@ -59,7 +64,7 @@ article {
 footer {
      height: 350;
      background-color: #121212;
-     margin-top: 0;
+     margin: 0;
 }
 
 
@@ -199,6 +204,10 @@ footer {
           margin: 0 auto;
      }
 
+          .calltoactionbtn a {
+               text-decoration: none;
+          }
+
           .calltoactiontext {
                color: #FFFFFF;
                font-size: 20px;
@@ -210,9 +219,10 @@ footer {
 
 .footerinfowrap {
      max-width: 250px;
-     min-height: 250px;
+     min-height: 300px;
      margin: 0 auto;
      text-align: center;
+     overflow: hidden;
 }
 
      .footerlogo {
@@ -246,6 +256,7 @@ footer {
      .footercopyright {
           padding-top: 40px;
           padding-bottom: 40px;
+          margin: 0;
      }
 
           .footercopyrightinfo {

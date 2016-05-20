@@ -59,7 +59,7 @@ a {
 	line-height: 30px;
 }
 
-.dropCap {
+.main article p.textcontent:first-letter {
 	font-size: 80px;
 	padding-right: 20px;
 	padding-bottom: 5px;
